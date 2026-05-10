@@ -1,0 +1,691 @@
+{
+  "timestamp": "2025-11-14",
+  "period_verified": "2022-01-01 - 2025-10-27",
+  "total_assets": 97,
+  "reliable_count": 91,
+  "additional_count": 6,
+  "converted_count": 0,
+  "failed_count": 0,
+  "failed_tickers": [],
+  "assets": {
+    "AFKS": {
+      "name": "АФК Система",
+      "figi": "BBG004S68614",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "AFLT": {
+      "name": "Аэрофлот",
+      "figi": "BBG004S683W7",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "ALRS": {
+      "name": "АЛРОСА",
+      "figi": "BBG004S68B31",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "BSPB": {
+      "name": "Банк Санкт-Петербург",
+      "figi": "BBG000QJW156",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "CBOM": {
+      "name": "МКБ",
+      "figi": "BBG009GSYN76",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "CHMF": {
+      "name": "Северсталь",
+      "figi": "BBG00475K6C3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "ENPG": {
+      "name": "Эн+",
+      "figi": "BBG000RMWQD4",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "FLOT": {
+      "name": "Совкомфлот",
+      "figi": "BBG000R04X57",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "GAZP": {
+      "name": "Газпром",
+      "figi": "BBG004730RP0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "GMKN": {
+      "name": "Норильский никель",
+      "figi": "BBG004731489",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "HEAD": {
+      "name": "Хэдхантер",
+      "figi": "TCS20A107662",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "IRAO": {
+      "name": "Интер РАО ЕЭС",
+      "figi": "BBG004S68473",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "LKOH": {
+      "name": "ЛУКОЙЛ",
+      "figi": "BBG004731032",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MAGN": {
+      "name": "Магнитогорский металлургический комбинат",
+      "figi": "BBG004S68507",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MDMG": {
+      "name": "Мать и дитя",
+      "figi": "TCS00Y3XYV94",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "MOEX": {
+      "name": "Московская Биржа",
+      "figi": "BBG004730JJ5",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MSNG": {
+      "name": "Мосэнерго",
+      "figi": "BBG004S687W8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MTSS": {
+      "name": "МТС",
+      "figi": "BBG004S681W1",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NLMK": {
+      "name": "НЛМК",
+      "figi": "BBG004S681B4",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NVTK": {
+      "name": "НОВАТЭК",
+      "figi": "BBG00475KKY8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "PHOR": {
+      "name": "ФосАгро",
+      "figi": "BBG004S689R0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "PIKK": {
+      "name": "ПИК СЗ (ПАО) ао",
+      "figi": "BBG004S68BH6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "PLZL": {
+      "name": "Полюс",
+      "figi": "BBG000R607Y3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "POSI": {
+      "name": "Группа Позитив",
+      "figi": "TCS00A103X66",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "RENI": {
+      "name": "Ренессанс Страхование",
+      "figi": "BBG00QKJSX05",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "ROSN": {
+      "name": "Роснефть",
+      "figi": "BBG004731354",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "RTKM": {
+      "name": "Ростелеком",
+      "figi": "BBG004S682Z6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "RUAL": {
+      "name": "РУСАЛ",
+      "figi": "BBG008F2T3T2",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SBER": {
+      "name": "Сбер Банк",
+      "figi": "BBG004730N88",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SBERP": {
+      "name": "Сбер Банк - привилегированные акции",
+      "figi": "BBG0047315Y7",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SNGS": {
+      "name": "Сургутнефтегаз",
+      "figi": "BBG0047315D0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SNGSP": {
+      "name": "Сургутнефтегаз - привилегированные акции",
+      "figi": "BBG004S681M2",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SVCB": {
+      "name": "Совкомбанк",
+      "figi": "TCS00A0ZZAC4",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "T": {
+      "name": "AT&T",
+      "figi": "BBG000BSJK37",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TATN": {
+      "name": "Татнефть",
+      "figi": "BBG004RVFFC0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TATNP": {
+      "name": "Татнефть - привилегированные акции",
+      "figi": "BBG004S68829",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TRNFP": {
+      "name": "Транснефть - привилегированные акции",
+      "figi": "BBG00475KHX6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "UGLD": {
+      "name": "Южуралзолото ГК",
+      "figi": "TCS00A0JPP37",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "UPRO": {
+      "name": "Юнипро",
+      "figi": "BBG004S686W0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "VKCO": {
+      "name": "ВК",
+      "figi": "TCS00A106YF0",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "VTBR": {
+      "name": "Банк ВТБ",
+      "figi": "BBG004730ZJ9",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "X5": {
+      "name": "Корпоративный Центр Икс 5",
+      "figi": "TCS03A108X38",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "YDEX": {
+      "name": "Яндекс",
+      "figi": "TCS00A107T19",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "AKRN": {
+      "name": "Акрон",
+      "figi": "BBG004S688G4",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "AQUA": {
+      "name": "ИНАРКТИКА",
+      "figi": "BBG000W325F7",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "BANEP": {
+      "name": "Башнефть - привилегированные акции",
+      "figi": "BBG004S686N0",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "BELU": {
+      "name": "Novabev Group",
+      "figi": "BBG000TY1CD1",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "CNRU": {
+      "name": "Циан",
+      "figi": "TCS00A10ANA1",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "DATA": {
+      "name": "Группа Аренадата",
+      "figi": "TCS00A108ZR8",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "ELFV": {
+      "name": "ЭЛ5-Энерго",
+      "figi": "BBG000F6YPH8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "EUTR": {
+      "name": "ЕвроТранс",
+      "figi": "TCS00A1002V2",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "FEES": {
+      "name": "ФСК Россети",
+      "figi": "BBG00475JZZ6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "FESH": {
+      "name": "ДВМП",
+      "figi": "BBG000QF1Q17",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "GEMC": {
+      "name": "МКПАО ЮМГ",
+      "figi": "TCS00A107JE2",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "HYDR": {
+      "name": "РусГидро",
+      "figi": "BBG00475K2X9",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "KZOS": {
+      "name": "Казаньоргсинтез - акции обыкновенные",
+      "figi": "BBG0029SFXB3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "LEAS": {
+      "name": "Европлан",
+      "figi": "TCS00A0ZZFS9",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "LENT": {
+      "name": "Лента",
+      "figi": "BBG0063FKTD9",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "LSNGP": {
+      "name": "Россети Ленэнерго - акции привилегированные",
+      "figi": "BBG000NLCCM3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "LSRG": {
+      "name": "Группа ЛСР",
+      "figi": "BBG004S68C39",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MBNK": {
+      "name": "МТС-Банк",
+      "figi": "TCS00A0JRH43",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "MGTSP": {
+      "name": "МГТС - акции привилегированные",
+      "figi": "BBG000PZ0833",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MRKC": {
+      "name": "Россети Центр",
+      "figi": "BBG000VH7TZ8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MRKP": {
+      "name": "Россети Центр и Приволжье",
+      "figi": "BBG000VG1034",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MRKU": {
+      "name": "Россети Урал",
+      "figi": "BBG000VKG4R5",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MRKV": {
+      "name": "Россети Волга",
+      "figi": "BBG000PKWCQ7",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MSRS": {
+      "name": "Россети Московский регион",
+      "figi": "BBG004S687G6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MTLR": {
+      "name": "Мечел",
+      "figi": "BBG004S68598",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MTLRP": {
+      "name": "Мечел - Привилегированные акции",
+      "figi": "BBG004S68FR6",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "MVID": {
+      "name": "М.Видео",
+      "figi": "BBG004S68CP5",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NKHP": {
+      "name": "НКХП",
+      "figi": "BBG00BGKYH17",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NKNC": {
+      "name": "Нижнекамскнефтехим",
+      "figi": "BBG000GQSRR5",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NKNCP": {
+      "name": "Нижнекамскнефтехим (привилегированные)",
+      "figi": "BBG000GQSVC2",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "NMTP": {
+      "name": "НМТП",
+      "figi": "BBG004S68BR5",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "OGKB": {
+      "name": "Вторая генерирующая компания оптового рынка электроэнергии",
+      "figi": "BBG000RK52V1",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "OZPH": {
+      "name": "Озон Фармацевтика",
+      "figi": "TCS00A109B25",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "RAGR": {
+      "name": "РусАгро",
+      "figi": "TCS90A0JQUZ6",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "RASP": {
+      "name": "Распадская",
+      "figi": "BBG004S68696",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "RNFT": {
+      "name": "РуссНефть",
+      "figi": "BBG00F9XX7H4",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "RTKMP": {
+      "name": "Ростелеком - Привилегированные акции",
+      "figi": "BBG004S685M3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SELG": {
+      "name": "Селигдар",
+      "figi": "BBG002458LF8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SFIN": {
+      "name": "ЭсЭфАй",
+      "figi": "BBG003LYCMB1",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SMLT": {
+      "name": "ГК Самолет",
+      "figi": "BBG00F6NKQX3",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SOFL": {
+      "name": "Софтлайн",
+      "figi": "TCS30A0ZZBC2",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "SPBE": {
+      "name": "СПБ Биржа",
+      "figi": "TCS40A0JQ9P9",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "SVAV": {
+      "name": "СОЛЛЕРС",
+      "figi": "BBG004S68JR8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TGKA": {
+      "name": "ТГК-1",
+      "figi": "BBG000QFH687",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "UWGN": {
+      "name": "ОВК",
+      "figi": "TCS00A0JVBT9",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "VSEH": {
+      "name": "ВИ.РУ",
+      "figi": "TCS10A108K09",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "VSMO": {
+      "name": "ВСМПО-АВИСМА",
+      "figi": "BBG004S68CV8",
+      "type": "share",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "WUSH": {
+      "name": "Whoosh",
+      "figi": "TCS00A105EX7",
+      "type": "share",
+      "format": "OTHER",
+      "verified_2022_2025": true
+    },
+    "TBRU": {
+      "name": "Российские облигации",
+      "figi": "TCS60A1039N1",
+      "type": "etf",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TGLD": {
+      "name": "Тинькофф Золото",
+      "figi": "TCS80A101X50",
+      "type": "etf",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TMON": {
+      "name": "Денежный рынок",
+      "figi": "TCS70A106DL2",
+      "type": "etf",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "TMOS": {
+      "name": "Тинькофф IMOEX",
+      "figi": "TCS60A101X76",
+      "type": "etf",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "SFZ5": {
+      "name": "Фьючерс на SP500",
+      "figi": "FUTSPYF12250",
+      "type": "future",
+      "format": "BBG",
+      "verified_2022_2025": true
+    },
+    "GDZ5": {
+      "name": "Фьючерс на золото",
+      "figi": "FUTGOLD12250",
+      "type": "future",
+      "format": "BBG",
+      "verified_2022_2025": true
+    }
+  }
+}

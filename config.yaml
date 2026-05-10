@@ -1,0 +1,113 @@
+# config.yaml
+# Конфигурация торговых систем
+
+# Настройки API и данных
+api:
+  tinkoff_token_env: "TINKOFF_TOKEN"
+  request_timeout: 10
+  candles_days: 90
+  max_retries: 3
+  retry_delay: 1
+
+# Рыночные индикаторы и пороги
+market:
+  # Ставка ЦБ
+  cbr_thresholds:
+    tmos_exit: 15        # выше 15% - выходим из TMOS
+    tbru_entry: 8        # выше 8% - входим в TBRU
+    tmos_return: 13      # ниже 13% - возвращаем TMOS
+    emergency: 20
+  
+  # Индекс волатильности RVI
+  rvi_thresholds:
+    emergency: 45        # выше 45 - экстренный выход
+    normal: 35           # ниже 35 - выход из режима
+  
+  # Курс юаня CNY/RUB
+  cny_thresholds:
+    strong: 13.5         # выше 13.5 - бюджет в плюсе
+    weak: 12.0           # ниже 12.0 - бюджет под давлением
+  
+  # Нефть Brent
+  brent_thresholds:
+    high: 75             # выше 75 - позитивно
+    low: 60              # ниже 60 - негативно
+  
+  # Индекс доллара DXY
+  dxy_thresholds:
+    tmos_exit: 98        # выход из TGLD
+    tbru_entry: 103
+
+  # Геополитика
+  geopolitics_max: 7     # выше 7/10 - штраф
+
+# Технические индикаторы
+indicators:
+  rsi_length: 14
+  stoch_length: 14
+  smooth_k: 3
+  smooth_d: 3
+  ma_periods: [20, 50]
+  macd_fast: 12
+  macd_slow: 26
+  macd_signal: 9
+
+# Управление рисками
+risk:
+  max_drawdown: 0.1      # 10% - критическая просадка
+  max_position_pct: 2.0  # максимум 2% портфеля на позицию
+  stop_loss_pct: 0.02    # 2% стоп-лосс
+  take_profit_pct: 0.04  # 4% тейк-профит
+
+# Размеры позиций (множители)
+position_multipliers:
+  priority_sector: 1.5   # приоритетный сектор
+  strong_block: 1.4      # очень сильный блок по объёму
+  normal_block: 1.0
+  weak_block: 0.7
+  against_trend: 0.7
+  correction: 0.7
+
+# Настройки логирования
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/scanner.log"
+
+# Веса для расчёта Score (сигналов)
+scoring:
+  block_strength_max: 10
+  block_age_fresh: 6
+  block_method_both: 4
+  distance_entry: 12
+  stoch_extreme: 12
+  potential_high: 6
+  trend_alignment: 15
+  sector_alignment:
+    strong_threshold: 60
+    weak_threshold: 40
+  low_volatility: 6
+  volume_pressure_max: 12
+  delta_trend_max: 8
+
+# Сектора (маппинг тикеров)
+sectors:
+  oil_gas: "Нефть и газ"
+  metals: "Металлы"
+  finance: "Финансы"
+  consumer: "Потребление"
+  tech: "Технологии"
+  energy: "Энергетика"
+  chemicals: "Химия"
+  developers: "Застройщики"
+  transport: "Транспорт"
+  telecom: "Телеком"
+
+# Маппинг тикер → сектор (только основные, остальные в коде)
+ticker_sector:
+  GAZP: "oil_gas"
+  LKOH: "oil_gas"
+  SBER: "finance"
+  VTBR: "finance"
+  YNDX: "tech"
+  T: "finance"

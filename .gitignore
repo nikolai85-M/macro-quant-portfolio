@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.env
+
+# Logs
+logs/
+*.log
+
+# Charts and signals (папки, которые создаются при запуске)
+stock_scanner/signals/
+stock_scanner/charts/
+
+# Data (если есть локальные CSV)
+*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
