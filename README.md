@@ -9,9 +9,9 @@
 Система аллокации капитала между 4 биржевыми фондами (TMOS, TGLD, TBRU, TMON) на основе макроэкономических данных.
 
 **Результаты бэктестинга (2021-2026):**
-- Доходность: **26.8%** годовых
+- Доходность: **28.8%** годовых
 - Максимальная просадка: **6.6%**
-- Коэффициент Шарпа: **3.03**
+- Коэффициент Шарпа: **3.15**
 
 **Что реализовано:**
 - Автоматический сбор макро-данных (ставка ЦБ/ФРС, нефть Brent, курс рубля, RVI, DXY, золото, US10Y)
@@ -23,25 +23,27 @@
 **Запуск:**
 ```bash
 cd macro_strategy
-python macro_collector.py```
+python macro_collector.py
+```
 
-## 📈 2. Stock Scanner (Акции)
-
+📈 2. Stock Scanner (Акции)
 Система поиска точек входа по ордер-блокам с подтверждением от объёмов и Stochastic RSI.
 
-**Что реализовано:**
-- Обнаружение бычьих и медвежьих ордер-блоков (два метода: наш и LuxAlgo)
-- Оценка силы блока по объёмам (very_strong / strong / normal / weak)
-- Stochastic RSI (как в TradingView) — фильтр перекупленности/перепроданности
-- Фундаментальный отбор секторов (оценка 0-100, направление BULLISH/BEARISH)
-- Анализ рыночного контекста (IMOEX, фаза рынка, макро-факторы)
-- Демо-трекинг позиций с расчётом P&L
-- Автоматический вотчлист ожидающих сигналов
+Что реализовано:
+
+Обнаружение бычьих и медвежьих ордер-блоков (два метода: наш и LuxAlgo)
+Оценка силы блока по объёмам (very_strong / strong / normal / weak)
+Stochastic RSI (как в TradingView) — фильтр перекупленности/перепроданности
+Фундаментальный отбор секторов (оценка 0-100, направление BULLISH/BEARISH)
+Анализ рыночного контекста (IMOEX, фаза рынка, макро-факторы)
+Демо-трекинг позиций с расчётом P&L
+Автоматический вотчлист ожидающих сигналов
 
 **Запуск:**
 ```bash
 cd stock_scanner
-python unified_scanner.py```
+python unified_scanner.py
+```
 
 Пример вывода:
 📊 РЫНОЧНЫЙ КОНТЕКСТ:
@@ -67,6 +69,7 @@ requests, tinkoff.invest — API
 
 python-dotenv — управление токенами
 
+PyYAML — конфигурация
 
 ## 📂 Структура
 macro-quant-portfolio/
@@ -74,7 +77,15 @@ macro-quant-portfolio/
 │   └── macro_collector.py
 ├── stock_scanner/           # Сканер акций по ордер-блокам
 │   ├── unified_scanner.py
-│   └── ... (вспомогательные модули)
+│   ├── ORDER_BLOCK_020326.py
+│   ├── fundamental_filter.py
+│   ├── fundamental_loader.py
+│   ├── watchlist_manager.py
+│   ├── watchlist_history.py
+│   ├── block_tracker.py
+│   ├── position_tracker.py
+│   └── sector_mapping.py
+├── config.yaml              # Конфигурация (пороги, параметры)
 ├── requirements.txt
 ├── .env.example
 └── README.md
