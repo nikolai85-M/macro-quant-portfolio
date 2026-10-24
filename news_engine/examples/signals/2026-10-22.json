@@ -1,0 +1,1547 @@
+{
+  "date": "2026-10-22",
+  "mode": "morning",
+  "entry_time": "2026-10-22T08:00:00+03:00",
+  "created_at": "2026-10-22T08:01:57.079026",
+  "updated_at": "2026-10-23T08:28:02.085153",
+  "macro_context": {
+    "date": "2026-10-22",
+    "market_phase": "UP",
+    "macro_score": 2,
+    "risk_level": "MEDIUM",
+    "priority": "LONG",
+    "imoex_position": 34,
+    "imoex_overbought": false,
+    "imoex_oversold": false,
+    "macro_summary": "IMOEX восстанавливается (+10.2% за 30д) с низкой базы (34% диапазона), Brent на максимумах ($111, 88% диапазона) поддерживает экспортёров, но усиливает инфляционные риски при ставке 14% и инфляции 6.35%. Рубль стабилен (81.13), RVI повышен (30.8) — волатильность сохраняется.",
+    "key_risks": [
+      "Высокий Brent разгоняет инфляцию и отдаляет смягчение ДКП",
+      "Решение ФРС 28.10 и сезон отчётностей (Сбер, OZON, YDEX, X5) могут вызвать резкие движения",
+      "Повышенный RVI (30.8) сигнализирует о нервозности рынка"
+    ],
+    "focus_sectors": {
+      "oil_gas": "LONG",
+      "finance": "NEUTRAL",
+      "metals": "NEUTRAL",
+      "developers": "SHORT"
+    },
+    "news_tone": {
+      "overall": "NEUTRAL",
+      "score": 0.1,
+      "by_layer": {
+        "macro": {
+          "score": 0.0,
+          "label": "NEUTRAL"
+        },
+        "general": {
+          "score": 0.1,
+          "label": "NEUTRAL"
+        },
+        "sectors": {
+          "oil_gas": {
+            "score": 0.3,
+            "label": "POSITIVE"
+          },
+          "finance": {
+            "score": 0.2,
+            "label": "POSITIVE"
+          },
+          "metals": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          },
+          "developers": {
+            "score": -0.2,
+            "label": "NEGATIVE"
+          },
+          "energy": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          },
+          "tech": {
+            "score": 0.1,
+            "label": "NEUTRAL"
+          }
+        }
+      }
+    },
+    "critical_events": [
+      {
+        "date": "2026-10-28",
+        "event": "Решение ФРС по ставке",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "finance",
+          "oil_gas",
+          "metals"
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "finance"
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "event": "OZON: финансовые результаты за 3 кв. 2026",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "tech"
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "event": "YDEX и X5: отчёты МСФО за 3 кв. и 9 мес. 2026",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "tech"
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "event": "AKRN: ВОСА по дивидендам 146 руб/акция",
+        "impact": "LOW",
+        "affected_sectors": [
+          "metals"
+        ]
+      }
+    ],
+    "news_summary": "Новостной фон смещён в корпоративную плоскость: доминируют сообщения по HeadHunter (buyback, статистика рынка труда, экосистема фондов роста) и МТС Банку (отчётность за 1П2026, позитивные обзоры, дисконт к капиталу). Явных макро-триггеров нет, тональность нейтрально-позитивная. Впереди насыщенная неделя отчётностей (Сбер, OZON, YDEX, X5) и решение ФРС 28.10."
+  },
+  "strategy_summary": {
+    "strategy_type": "SINGLE_LONG",
+    "market_view": "IMOEX в фазе восстановления (+10.2% за 30д) с низкой базы (34% диапазона), не перекуплен — пространство для роста сохраняется. Brent на максимумах ($111) поддерживает нефтегаз, но при ставке 14% и инфляции 6.35% рост ограничен, а RVI 30.8 и события 28 октября (ФРС, отчёт Сбера) требуют осторожности. Приоритет — LONG в перепроданных качественных историях и нефтегазе, с частичным кэшем под событийный риск.",
+    "capital_allocation": {
+      "long": 0.6,
+      "short": 0.0,
+      "cash": 0.4
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "LKOH_20261022_morning_LONG",
+      "ticker": "LKOH",
+      "direction": "LONG",
+      "entry": 6500.0,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 6250.0,
+      "target": 7150.0,
+      "size": 0.25,
+      "source": "selected",
+      "reason": "Нефтегаз — единственный сектор с явно позитивной тональностью (+0.40). Brent $110.9 (+16.9% за месяц) напрямую поддерживает выручку и дивидендную базу. Фаза рынка UP, приоритет LONG, IMOEX не перекуплен.",
+      "trigger": "Покупка на текущих/при откате к 6400-6450 при удержании Brent выше $108",
+      "block_low": null,
+      "block_high": null,
+      "stoch": null,
+      "r_r": null,
+      "quality": null,
+      "final_rating": null,
+      "entry_zone": null,
+      "trigger_analysis": {
+        "llm_text": "Покупка на текущих/при откате к 6400-6450 при удержании Brent выше $108",
+        "types_detected": [
+          "PRICE_ZONE",
+          "MACRO_CONFIRM"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "oil_gas",
+        "focus_direction": "LONG",
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "ROSN_20261022_morning_LONG",
+      "ticker": "ROSN",
+      "direction": "LONG",
+      "entry": 580.0,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 555.0,
+      "target": 640.0,
+      "size": 0.2,
+      "source": "selected",
+      "reason": "Второй бенефициар высокого Brent, дешёвая оценка, поддержка экспортной выручки и бюджета. Сектор oil_gas в фокусе LONG по макро-контексту.",
+      "trigger": "Вход при закреплении выше 575 или на откате к 565",
+      "block_low": null,
+      "block_high": null,
+      "stoch": null,
+      "r_r": null,
+      "quality": null,
+      "final_rating": null,
+      "entry_zone": null,
+      "trigger_analysis": {
+        "llm_text": "Вход при закреплении выше 575 или на откате к 565",
+        "types_detected": [
+          "PRICE_ZONE"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "NORMAL",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "oil_gas",
+        "focus_direction": "LONG",
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "X5_20261022_morning_SHORT",
+      "ticker": "X5",
+      "direction": "SHORT",
+      "entry": 2259.0,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 2360.0,
+      "target": 2020.0,
+      "size": 0.25,
+      "source": "selected",
+      "reason": "Stoch 90 — экстремальная перекупленность, R:R 4.01, качество сигнала 55/100. Отчёт МСФО 29.10 создаёт риск 'sell the news' после сильного роста. Ритейл не имеет макро-поддержки в отличие от нефтегаза.",
+      "trigger": "Шорт от 2250-2280 при отказе пробить максимум; усиление при пробое 2200 вниз",
+      "block_low": 2245.5,
+      "block_high": 2284.0,
+      "stoch": 90.0,
+      "r_r": 4.01,
+      "quality": 55,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 35.1,
+        "zone": "MIDDLE_THIRD",
+        "distance_from_low_pct": 0.6,
+        "distance_from_high_pct": 1.11,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт от 2250-2280 при отказе пробить максимум; усиление при пробое 2200 вниз",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "consumer",
+        "focus_direction": null,
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "NKNCP_20261022_morning_SHORT",
+      "ticker": "NKNCP",
+      "direction": "SHORT",
+      "entry": 38.62,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 40.5,
+      "target": 34.0,
+      "size": 0.15,
+      "source": "selected",
+      "reason": "Stoch 84, R:R 4.61, качество 55/100. Химия/нефтепереработка — нейтральный сектор, бумага перекуплена без макро-драйвера. Отчёт НКХП 22.10 может стать триггером фиксации.",
+      "trigger": "Шорт при удержании ниже 39.5; стоп при закрытии выше 40.5",
+      "block_low": 38.68,
+      "block_high": 39.18,
+      "stoch": 84.0,
+      "r_r": 4.61,
+      "quality": 55,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 0,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": -0.16,
+        "distance_from_high_pct": 1.45,
+        "entry_vs_block": "BELOW"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт при удержании ниже 39.5; стоп при закрытии выше 40.5",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "chemicals",
+        "focus_direction": null,
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "SBER_20261022_morning_SHORT_alt",
+      "ticker": "SBER",
+      "direction": "SHORT",
+      "entry": 291.99,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 296.27,
+      "target": 283.78,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 290.91,
+      "block_high": 294.8,
+      "stoch": 80.0,
+      "r_r": 1.92,
+      "quality": 25,
+      "final_rating": 64.0,
+      "entry_zone": {
+        "position_in_block_pct": 27.8,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.37,
+        "distance_from_high_pct": 0.96,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "finance",
+        "focus_direction": "LONG",
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "SFIN_20261022_morning_SHORT_alt",
+      "ticker": "SFIN",
+      "direction": "SHORT",
+      "entry": 614.6,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 617.87,
+      "target": 573.35,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 605.0,
+      "block_high": 614.8,
+      "stoch": 84.2,
+      "r_r": 12.6,
+      "quality": 20,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 98.0,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 1.56,
+        "distance_from_high_pct": 0.03,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "unknown",
+        "focus_direction": null,
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "UPRO_20261022_morning_SHORT_alt",
+      "ticker": "UPRO",
+      "direction": "SHORT",
+      "entry": 1.13,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 1.16,
+      "target": 1.02,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 1.13,
+      "block_high": 1.15,
+      "stoch": 77.6,
+      "r_r": 3.62,
+      "quality": 25,
+      "final_rating": 80.0,
+      "entry_zone": {
+        "position_in_block_pct": 0,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.0,
+        "distance_from_high_pct": 1.77,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.9000015258789,
+          "brent_moex": 110.75,
+          "imoex": 2444.62,
+          "rvi": 30.71,
+          "usd_rub": 81.9739,
+          "cny_rub": 12.2806,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 36
+        },
+        "focus_sector": "energy",
+        "focus_direction": null,
+        "key_risks": [
+          "Решение ФРС по ставке 28.10 — риск глобальной переоценки риска",
+          "Жёсткая ДКП (14%) и инфляция 6.35% давят на внутренний спрос и девелоперов",
+          "Высокий RVI 30.7 и перегретый рост Brent — риск коррекции нефти и индекса",
+          "Плотный блок отчётностей (SBER, X5, YDEX, GMKN) — риск разочарований"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.15,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.4,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "oil_gas",
+              "finance",
+              "metals",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "Отчёты X5 и Яндекс (МСФО 3 кв.)",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-23",
+            "event": "РусГидро: операционные результаты за 9 месяцев",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "energy"
+            ]
+          }
+        ],
+        "news_summary": "Рынок на позитиве: IMOEX отскочил более чем на 10% за месяц, Сбербанк торгуется у 292₽ и готовит отчёт МСФО 28.10, Brent держится выше $110. В фокусе — плотный блок отчётностей (SBER, X5, YDEX, GMKN, HYDR) и решение ФРС 28.10. Негатив локальный: проблемы Юнипро со штрафом ЦБ и сокращённой отчётностью, слабость золота (-6.2% за месяц) давит на металлургов."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-22T08:01:57.079026"
+    },
+    {
+      "signal_id": "HEAD_20261022_morning_LONG",
+      "ticker": "HEAD",
+      "direction": "LONG",
+      "entry": 2646.0,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 2550.0,
+      "target": 2820.0,
+      "size": 0.25,
+      "source": "selected",
+      "reason": "Tech-сектор с нейтрально-позитивной тональностью, Stoch 11.6 — глубокая перепроданность на фоне растущего рынка, R:R 1.82. Отскок от локального дна в рамках общего аптренда IMOEX.",
+      "trigger": "Покупка от 2646 при подтверждении разворота Stoch выше 20 или на закрытии дневной свечи выше 2660",
+      "block_low": null,
+      "block_high": null,
+      "stoch": null,
+      "r_r": null,
+      "quality": null,
+      "final_rating": null,
+      "entry_zone": null,
+      "trigger_analysis": {
+        "llm_text": "Покупка от 2646 при подтверждении разворота Stoch выше 20 или на закрытии дневной свечи выше 2660",
+        "types_detected": [
+          "PRICE_ZONE"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "NORMAL",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 114.02999877929688,
+          "brent_moex": 113.74,
+          "imoex": 2439.59,
+          "rvi": 30.41,
+          "usd_rub": 81.1255,
+          "cny_rub": 12.146,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 34
+        },
+        "focus_sector": "tech",
+        "focus_direction": null,
+        "key_risks": [
+          "Высокий Brent разгоняет инфляцию и отдаляет смягчение ДКП",
+          "Решение ФРС 28.10 и сезон отчётностей (Сбер, OZON, YDEX, X5) могут вызвать резкие движения",
+          "Повышенный RVI (30.8) сигнализирует о нервозности рынка"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.2,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "OZON: финансовые результаты за 3 кв. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "YDEX и X5: отчёты МСФО за 3 кв. и 9 мес. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-22",
+            "event": "AKRN: ВОСА по дивидендам 146 руб/акция",
+            "impact": "LOW",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смещён в корпоративную плоскость: доминируют сообщения по HeadHunter (buyback, статистика рынка труда, экосистема фондов роста) и МТС Банку (отчётность за 1П2026, позитивные обзоры, дисконт к капиталу). Явных макро-триггеров нет, тональность нейтрально-позитивная. Впереди насыщенная неделя отчётностей (Сбер, OZON, YDEX, X5) и решение ФРС 28.10."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-23T08:28:02.085153"
+    },
+    {
+      "signal_id": "MBNK_20261022_morning_LONG",
+      "ticker": "MBNK",
+      "direction": "LONG",
+      "entry": 926.5,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 890.0,
+      "target": 1085.0,
+      "size": 0.2,
+      "source": "selected",
+      "reason": "Финансовый сектор позитивен (+0.20), Stoch 4.7 — экстремальная перепроданность, лучшее в сканере R:R 4.35. Высокий потенциал отскока при низком риске входа.",
+      "trigger": "Вход от 926.5 при появлении объёма и закрытии выше 940, либо на отскоке Stoch из зоны <10",
+      "block_low": 925.5,
+      "block_high": 932.5,
+      "stoch": 15.0,
+      "r_r": 1.71,
+      "quality": 35,
+      "final_rating": 64.0,
+      "entry_zone": {
+        "position_in_block_pct": 14.3,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.11,
+        "distance_from_high_pct": 0.65,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Вход от 926.5 при появлении объёма и закрытии выше 940, либо на отскоке Stoch из зоны <10",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME",
+          "BLOCK_BOUNCE"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 114.02999877929688,
+          "brent_moex": 113.74,
+          "imoex": 2439.59,
+          "rvi": 30.41,
+          "usd_rub": 81.1255,
+          "cny_rub": 12.146,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 34
+        },
+        "focus_sector": "finance",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Высокий Brent разгоняет инфляцию и отдаляет смягчение ДКП",
+          "Решение ФРС 28.10 и сезон отчётностей (Сбер, OZON, YDEX, X5) могут вызвать резкие движения",
+          "Повышенный RVI (30.8) сигнализирует о нервозности рынка"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.2,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "OZON: финансовые результаты за 3 кв. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "YDEX и X5: отчёты МСФО за 3 кв. и 9 мес. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-22",
+            "event": "AKRN: ВОСА по дивидендам 146 руб/акция",
+            "impact": "LOW",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смещён в корпоративную плоскость: доминируют сообщения по HeadHunter (buyback, статистика рынка труда, экосистема фондов роста) и МТС Банку (отчётность за 1П2026, позитивные обзоры, дисконт к капиталу). Явных макро-триггеров нет, тональность нейтрально-позитивная. Впереди насыщенная неделя отчётностей (Сбер, OZON, YDEX, X5) и решение ФРС 28.10."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-23T08:28:02.085153"
+    },
+    {
+      "signal_id": "GAZP_20261022_morning_LONG",
+      "ticker": "GAZP",
+      "direction": "LONG",
+      "entry": 135.0,
+      "entry_time": "2026-10-22T08:00:00+03:00",
+      "stop": 128.0,
+      "target": 150.0,
+      "size": 0.15,
+      "source": "selected",
+      "reason": "Нефтегаз — сильнейший сектор (тональность +0.30, приоритет LONG), Brent $111 на 88% диапазона поддерживает экспортёров. Голубая фишка как бета на рост IMOEX.",
+      "trigger": "Вход от 135 при удержании Brent выше $108; при пробое 138 добавлять",
+      "block_low": null,
+      "block_high": null,
+      "stoch": null,
+      "r_r": null,
+      "quality": null,
+      "final_rating": null,
+      "entry_zone": null,
+      "trigger_analysis": {
+        "llm_text": "Вход от 135 при удержании Brent выше $108; при пробое 138 добавлять",
+        "types_detected": [
+          "PRICE_ZONE",
+          "MACRO_CONFIRM"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 114.02999877929688,
+          "brent_moex": 113.74,
+          "imoex": 2439.59,
+          "rvi": 30.41,
+          "usd_rub": 81.1255,
+          "cny_rub": 12.146,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 34
+        },
+        "focus_sector": "oil_gas",
+        "focus_direction": "LONG",
+        "key_risks": [
+          "Высокий Brent разгоняет инфляцию и отдаляет смягчение ДКП",
+          "Решение ФРС 28.10 и сезон отчётностей (Сбер, OZON, YDEX, X5) могут вызвать резкие движения",
+          "Повышенный RVI (30.8) сигнализирует о нервозности рынка"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": 0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.0,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.2,
+                "label": "POSITIVE"
+              },
+              "metals": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.1,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер: консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "OZON: финансовые результаты за 3 кв. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-29",
+            "event": "YDEX и X5: отчёты МСФО за 3 кв. и 9 мес. 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "tech"
+            ]
+          },
+          {
+            "date": "2026-10-22",
+            "event": "AKRN: ВОСА по дивидендам 146 руб/акция",
+            "impact": "LOW",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смещён в корпоративную плоскость: доминируют сообщения по HeadHunter (buyback, статистика рынка труда, экосистема фондов роста) и МТС Банку (отчётность за 1П2026, позитивные обзоры, дисконт к капиталу). Явных макро-триггеров нет, тональность нейтрально-позитивная. Впереди насыщенная неделя отчётностей (Сбер, OZON, YDEX, X5) и решение ФРС 28.10."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-23T08:28:02.085153"
+    }
+  ]
+}

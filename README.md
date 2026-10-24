@@ -96,3 +96,31 @@ cd macro-quant-portfolio
 pip install -r requirements.txt
 cp .env.example .env
 # Добавьте ваш TINKOFF_TOKEN в .env
+
+---
+---
+
+## 3. News Engine (v2) - AI-усиленный сканер ордер-блоков
+
+Эволюция stock_scanner: добавлены макро-контекст, новостной анализ и LLM (DeepSeek) для интерпретации сигналов.
+
+Что нового по сравнению со stock_scanner:
+- Макро: Brent, IMOEX, ставка ЦБ, RVI, USD/RUB
+- Новости: RSS + БКС + SmartLab форумы
+- LLM: DeepSeek - стратегия и объяснение
+- Форвард-тест: Hit Rate, MFE/MAE, ложные пробои
+
+Архитектура:
+macro_collector -> scanner_clean -> news_collector -> calendar_collector
+-> ticker_news_collector -> news_engine (LLM) -> signal_saver
+-> analyze_hits -> hits_report
+
+Форвард-тест (в процессе):
+Система работает автономно на VPS с 19.10.2026.
+Текущие результаты: Hit 1д - 61%, Hit 3д - 60%.
+
+Примеры сигналов: см. news_engine/examples/signals/
+
+Статус: форвард-тест в процессе. Планируется MCP-обёртка для конкурса Т-Банк.
+
+Подробнее: news_engine/README.md

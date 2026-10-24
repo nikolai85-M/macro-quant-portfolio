@@ -1,0 +1,27 @@
+﻿# Секреты
+.env
+config.py
+
+# Бэкапы
+*.bak
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Данные
+data/ticker_news/
+data/news_feed.json
+data/scanner_signals.json
+data/final_strategy.json
+data/macro_data.json
+data/hits_analysis/
+
+# Bat-файлы
+bat/
+
+# Одноразовые скрипты
+patch_logging.py
+create_readme.py
+patch_signal_saver.py
+create_readme_ru.py

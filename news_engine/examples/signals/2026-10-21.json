@@ -1,0 +1,1316 @@
+{
+  "date": "2026-10-21",
+  "mode": "morning",
+  "entry_time": "2026-10-21T08:00:00+03:00",
+  "created_at": "2026-10-21T08:02:42.608765",
+  "updated_at": "2026-10-21T08:02:42.608765",
+  "macro_context": {
+    "date": "2026-10-21",
+    "market_phase": "UP",
+    "macro_score": 2,
+    "risk_level": "MEDIUM",
+    "priority": "LONG",
+    "imoex_position": 38,
+    "imoex_overbought": false,
+    "imoex_oversold": false,
+    "macro_summary": "IMOEX восстанавливается (+10.2% за 30 дней) с низкой позиции 38% от 2-летнего диапазона, что оставляет пространство для роста. Brent на максимумах ($110, +16.9%) поддерживает экспортёров и рублёвую выручку, но одновременно усиливает инфляционное давление при ставке ЦБ 14% и инфляции 6.35%. RVI 28.88 сигнализирует о повышенной волатильности и осторожности рынка.",
+    "key_risks": [
+      "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+      "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+      "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+      "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+    ],
+    "focus_sectors": {
+      "oil_gas": "LONG",
+      "finance": "NEUTRAL",
+      "metals": "NEUTRAL",
+      "developers": "SHORT"
+    },
+    "news_tone": {
+      "overall": "NEUTRAL",
+      "score": -0.1,
+      "by_layer": {
+        "macro": {
+          "score": 0.1,
+          "label": "NEUTRAL"
+        },
+        "general": {
+          "score": -0.1,
+          "label": "NEUTRAL"
+        },
+        "sectors": {
+          "oil_gas": {
+            "score": 0.3,
+            "label": "POSITIVE"
+          },
+          "finance": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          },
+          "metals": {
+            "score": -0.3,
+            "label": "NEGATIVE"
+          },
+          "developers": {
+            "score": -0.2,
+            "label": "NEGATIVE"
+          },
+          "energy": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          },
+          "tech": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          }
+        }
+      }
+    },
+    "critical_events": [
+      {
+        "date": "2026-10-28",
+        "event": "Решение ФРС по ставке",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "finance",
+          "oil_gas",
+          "metals"
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "finance"
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "metals"
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "metals"
+        ]
+      }
+    ],
+    "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+  },
+  "strategy_summary": {
+    "strategy_type": "PAIR",
+    "market_view": "IMOEX в фазе UP (+10.2% за 30 дней) с низкой позиции 38% диапазона, что оставляет потенциал роста, но сканер фиксирует массовый перегрев (10 SHORT-сигналов, Stoch 75-99) на фоне повышенного RVI 28.88. Brent на максимумах $110 поддерживает нефтегаз (тональность +0.30), тогда как металлы (-0.30) и девелоперы (-0.20) слабы. Конфликт макро (LONG) и технической перекупленности диктует дельта-нейтральную пару: LONG в перепроданном/поддерживаемом секторе против SHORT в перегретых слабых историях.",
+    "capital_allocation": {
+      "long": 0.2,
+      "short": 0.3,
+      "cash": 0.5
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "HEAD_20261021_morning_LONG",
+      "ticker": "HEAD",
+      "direction": "LONG",
+      "entry": 2729.0,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 2600.0,
+      "target": 3050.0,
+      "size": 0.2,
+      "source": "selected",
+      "reason": "Единственный LONG-сигнал сканера, Stoch 23.2 (перепродан), R:R 3.15. Tech-сектор нейтрален, но бумага отскочила от локального дна и не перегрета — асимметрия вверх при общем аптренде рынка.",
+      "trigger": "Покупка от текущих 2729 или на откате к 2700 при удержании поддержки; стоп ниже 2600.",
+      "block_low": 2728.0,
+      "block_high": 2749.5,
+      "stoch": 23.2,
+      "r_r": 3.15,
+      "quality": 15,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 4.7,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.04,
+        "distance_from_high_pct": 0.75,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Покупка от текущих 2729 или на откате к 2700 при удержании поддержки; стоп ниже 2600.",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "tech",
+        "focus_direction": null,
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "X5_20261021_morning_SHORT",
+      "ticker": "X5",
+      "direction": "SHORT",
+      "entry": 2237.0,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 2320.0,
+      "target": 2050.0,
+      "size": 0.15,
+      "source": "selected",
+      "reason": "Экстремальный перегрев Stoch 99.2, R:R 2.13, кач 40/100. Consumer-сектор без позитивных драйверов, риск mean-reversion высок.",
+      "trigger": "Шорт от 2237 при первых признаках разворота (свеча с верхней тенью / пробой локального минимума дня).",
+      "block_low": 2245.5,
+      "block_high": 2284.0,
+      "stoch": 99.2,
+      "r_r": 2.13,
+      "quality": 40,
+      "final_rating": 68.0,
+      "entry_zone": {
+        "position_in_block_pct": 0,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": -0.38,
+        "distance_from_high_pct": 2.1,
+        "entry_vs_block": "BELOW"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт от 2237 при первых признаках разворота (свеча с верхней тенью / пробой локального минимума дня).",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "consumer",
+        "focus_direction": null,
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "ALRS_20261021_morning_SHORT",
+      "ticker": "ALRS",
+      "direction": "SHORT",
+      "entry": 21.11,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 21.95,
+      "target": 19.4,
+      "size": 0.15,
+      "source": "selected",
+      "reason": "Металлы — негативная тональность (-0.30), Stoch 86.3 (перекуплен), R:R 2.81. Слабый сектор + техническая перекупленность дают хорошую асимметрию шорта.",
+      "trigger": "Шорт от 21.11 или на отскоке к 21.4-21.5; стоп выше 21.95.",
+      "block_low": 20.81,
+      "block_high": 21.46,
+      "stoch": 86.3,
+      "r_r": 2.81,
+      "quality": 35,
+      "final_rating": 76.0,
+      "entry_zone": {
+        "position_in_block_pct": 46.2,
+        "zone": "MIDDLE_THIRD",
+        "distance_from_low_pct": 1.42,
+        "distance_from_high_pct": 1.66,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт от 21.11 или на отскоке к 21.4-21.5; стоп выше 21.95.",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME",
+          "BLOCK_BOUNCE"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "metals",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "SBER_20261021_morning_SHORT_alt",
+      "ticker": "SBER",
+      "direction": "SHORT",
+      "entry": 294.56,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 296.27,
+      "target": 283.78,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 290.91,
+      "block_high": 294.8,
+      "stoch": 97.7,
+      "r_r": 6.29,
+      "quality": 35,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 93.8,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 1.24,
+        "distance_from_high_pct": 0.08,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "finance",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "SBERP_20261021_morning_SHORT_alt",
+      "ticker": "SBERP",
+      "direction": "SHORT",
+      "entry": 294.62,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 297.48,
+      "target": 284.21,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 291.95,
+      "block_high": 296.0,
+      "stoch": 98.4,
+      "r_r": 3.65,
+      "quality": 35,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 65.9,
+        "zone": "MIDDLE_THIRD",
+        "distance_from_low_pct": 0.91,
+        "distance_from_high_pct": 0.47,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "finance",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "RUAL_20261021_morning_SHORT_alt",
+      "ticker": "RUAL",
+      "direction": "SHORT",
+      "entry": 26.08,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 26.68,
+      "target": 25.14,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 25.87,
+      "block_high": 26.55,
+      "stoch": 93.5,
+      "r_r": 1.58,
+      "quality": 40,
+      "final_rating": 64.0,
+      "entry_zone": {
+        "position_in_block_pct": 30.9,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.81,
+        "distance_from_high_pct": 1.8,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "metals",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "AQUA_20261021_morning_SHORT_alt",
+      "ticker": "AQUA",
+      "direction": "SHORT",
+      "entry": 331.3,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 333.06,
+      "target": 315.73,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 328.25,
+      "block_high": 331.4,
+      "stoch": 75.2,
+      "r_r": 8.86,
+      "quality": 45,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 96.8,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 0.92,
+        "distance_from_high_pct": 0.03,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "unknown",
+        "focus_direction": null,
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "UPRO_20261021_morning_SHORT_alt",
+      "ticker": "UPRO",
+      "direction": "SHORT",
+      "entry": 1.15,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 1.16,
+      "target": 1.02,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 1.13,
+      "block_high": 1.15,
+      "stoch": 94.7,
+      "r_r": 14.71,
+      "quality": 60,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 100,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 1.74,
+        "distance_from_high_pct": 0.0,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "energy",
+        "focus_direction": null,
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.593416"
+    },
+    {
+      "signal_id": "AKRN_20261021_morning_SHORT_alt",
+      "ticker": "AKRN",
+      "direction": "SHORT",
+      "entry": 18626.0,
+      "entry_time": "2026-10-21T08:00:00+03:00",
+      "stop": 18914.1,
+      "target": 17936.0,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 18562.0,
+      "block_high": 18820.0,
+      "stoch": 76.3,
+      "r_r": 2.39,
+      "quality": 45,
+      "final_rating": 76.0,
+      "entry_zone": {
+        "position_in_block_pct": 24.8,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.34,
+        "distance_from_high_pct": 1.04,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 110.27999877929688,
+          "brent_moex": 110.1,
+          "imoex": 2477.81,
+          "rvi": 28.88,
+          "usd_rub": 82.8879,
+          "cny_rub": 12.3708,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 2,
+          "risk_level": "MEDIUM",
+          "imoex_position": 38
+        },
+        "focus_sector": "chemicals",
+        "focus_direction": null,
+        "key_risks": [
+          "Жёсткая ДКП: ставка 14% при инфляции 6.35% давит на оценку и кредитование",
+          "Высокий RVI (28.88) — риск резких распродаж на геополитике/санкциях",
+          "Слабость алмазного и алюминиевого рынков (негатив по АЛРОСА, ценовые споры вокруг Русала)",
+          "Решение ФРС 28.10 и отчётность Сбера могут спровоцировать волатильность"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.1,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.3,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "developers": {
+                "score": -0.2,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-28",
+            "event": "Решение ФРС по ставке",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "oil_gas",
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-28",
+            "event": "Сбер публикует консолидированные результаты МСФО за 9 месяцев 2026",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Отчёт Полюс 9 мес РСБУ и PHOR МСФО 9 мес, возможный дивиденд Фосагро",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель — операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Новостной фон смешанный: Brent на максимумах поддерживает нефтегаз, тогда как металлургия под давлением — БКС сохраняет негативный взгляд на АЛРОСА из-за слабого алмазного рынка, а вокруг Русала идут споры о новой формуле цены на алюминий и налоговых рисках. В финансовом секторе внимание приковано к кассации Euroclear по иску Сбербанка и предстоящему отчёту Сбера 28 октября. Рынок растёт на восстановлении, но повышенный RVI и жёсткая ДКП ограничивают аппетит к риску."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-21T08:02:42.608765"
+    }
+  ]
+}

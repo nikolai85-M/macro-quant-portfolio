@@ -1,0 +1,1339 @@
+{
+  "date": "2026-10-20",
+  "mode": "morning",
+  "entry_time": "2026-10-20T08:00:00+03:00",
+  "created_at": "2026-10-20T08:01:48.714474",
+  "updated_at": "2026-10-20T08:01:48.714474",
+  "macro_context": {
+    "date": "2026-10-20",
+    "market_phase": "UP",
+    "macro_score": 3,
+    "risk_level": "HIGH",
+    "priority": "LONG",
+    "imoex_position": 36,
+    "imoex_overbought": false,
+    "imoex_oversold": false,
+    "macro_summary": "Brent на максимумах (~$110, +17% за 30 дней) поддерживает бюджет и экспортёров, IMOEX восстановился на +10% за месяц, но остаётся в нижней половине 2-летнего диапазона (36%). Главное давление — жёсткая ставка ЦБ 14% при инфляции 6.35% и повышенная волатильность (RVI 29.6). Рубль стабилен (82.85), золото в рублях корректируется (-6.2% за 30д).",
+    "key_risks": [
+      "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+      "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+      "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+      "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+      "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+    ],
+    "focus_sectors": {
+      "oil_gas": "LONG",
+      "finance": "NEUTRAL",
+      "metals": "NEUTRAL",
+      "developers": "SHORT"
+    },
+    "news_tone": {
+      "overall": "NEUTRAL",
+      "score": -0.1,
+      "by_layer": {
+        "macro": {
+          "score": 0.1,
+          "label": "NEUTRAL"
+        },
+        "general": {
+          "score": -0.2,
+          "label": "NEUTRAL"
+        },
+        "sectors": {
+          "oil_gas": {
+            "score": 0.5,
+            "label": "POSITIVE"
+          },
+          "finance": {
+            "score": -0.1,
+            "label": "NEUTRAL"
+          },
+          "metals": {
+            "score": -0.2,
+            "label": "NEUTRAL"
+          },
+          "developers": {
+            "score": -0.5,
+            "label": "NEGATIVE"
+          },
+          "energy": {
+            "score": -0.3,
+            "label": "NEGATIVE"
+          },
+          "tech": {
+            "score": 0.0,
+            "label": "NEUTRAL"
+          }
+        }
+      }
+    },
+    "critical_events": [
+      {
+        "date": "2026-10-20",
+        "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "developers",
+          "finance"
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+        "impact": "HIGH",
+        "affected_sectors": [
+          "finance",
+          "developers"
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "metals"
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "metals"
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "oil_gas"
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+        "impact": "MEDIUM",
+        "affected_sectors": [
+          "metals"
+        ]
+      }
+    ],
+    "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+  },
+  "strategy_summary": {
+    "strategy_type": "PAIR",
+    "market_view": "IMOEX в фазе UP (+10% за месяц), но остаётся в нижней половине 2-летнего диапазона (36%) при высоком риске (RVI 29.6) и жёсткой ставке 14%. Главный драйвер — Brent на максимумах (~$110), что поддерживает нефтегаз, тогда как внутренние сектора (энергетика, девелоперы) под давлением. Сканер даёт преимущественно перекупленные SHORT-сигналы при единственном слабом LONG, поэтому оптимальна дельта-нейтральная пара: LONG нефтегаз против SHORT перегретых историй.",
+    "capital_allocation": {
+      "long": 0.2,
+      "short": 0.25,
+      "cash": 0.55
+    }
+  },
+  "signals": [
+    {
+      "signal_id": "SNGSP_20261020_morning_LONG",
+      "ticker": "SNGSP",
+      "direction": "LONG",
+      "entry": 41.12,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 39.3,
+      "target": 45.5,
+      "size": 0.2,
+      "source": "selected",
+      "reason": "Единственный LONG-сигнал сканера, Stoch 24.8 (перепродан), R:R 4.86. Сектор oil_gas с тональностью +0.50 и Brent $110 — сильнейший макро-драйвер. Приоритетная преф-акция Сургутнефтегаза с высоким дивидендным потенциалом.",
+      "trigger": "Покупка при удержании выше 41.0 и подтверждении отскока от зоны перепроданности (Stoch разворот вверх)",
+      "block_low": 41.09,
+      "block_high": 41.54,
+      "stoch": 24.8,
+      "r_r": 4.86,
+      "quality": 20,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 6.7,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.07,
+        "distance_from_high_pct": 1.02,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Покупка при удержании выше 41.0 и подтверждении отскока от зоны перепроданности (Stoch разворот вверх)",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME",
+          "BLOCK_BOUNCE"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "oil_gas",
+        "focus_direction": "LONG",
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.698667"
+    },
+    {
+      "signal_id": "IRAO_20261020_morning_SHORT",
+      "ticker": "IRAO",
+      "direction": "SHORT",
+      "entry": 2.61,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 2.75,
+      "target": 2.3,
+      "size": 0.15,
+      "source": "selected",
+      "reason": "Лучший по качеству SHORT-сигнал (60/100), Stoch 90.8 — экстремальная перекупленность, R:R 5.19. Сектор energy негативный (-0.30), отчёт РСБУ 25.10 может стать катализатором разочарования.",
+      "trigger": "Шорт при закреплении ниже 2.60 или откате от 2.65 с ростом объёма",
+      "block_low": 2.61,
+      "block_high": 2.63,
+      "stoch": 90.8,
+      "r_r": 5.19,
+      "quality": 60,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 0.0,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.0,
+        "distance_from_high_pct": 0.77,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт при закреплении ниже 2.60 или откате от 2.65 с ростом объёма",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "energy",
+        "focus_direction": null,
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.698667"
+    },
+    {
+      "signal_id": "VTBR_20261020_morning_SHORT",
+      "ticker": "VTBR",
+      "direction": "SHORT",
+      "entry": 56.67,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 59.0,
+      "target": 52.0,
+      "size": 0.1,
+      "source": "selected",
+      "reason": "Максимальный R:R 8.59, Stoch 82.1 (перекуплен). Финансовый сектор нейтрален (-0.10) при жёсткой ставке 14%, что давит на маржу банков. Ограниченный размер из-за качества сигнала 30/100.",
+      "trigger": "Шорт при откате от 57.0 или пробое поддержки 56.0",
+      "block_low": 56.08,
+      "block_high": 57.05,
+      "stoch": 82.1,
+      "r_r": 8.59,
+      "quality": 30,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 60.8,
+        "zone": "MIDDLE_THIRD",
+        "distance_from_low_pct": 1.04,
+        "distance_from_high_pct": 0.67,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": {
+        "llm_text": "Шорт при откате от 57.0 или пробое поддержки 56.0",
+        "types_detected": [
+          "PRICE_ZONE",
+          "STOCH_EXTREME"
+        ],
+        "priority_type": "PRICE_ZONE",
+        "quality": "STRONG",
+        "all_conditions_met": true
+      },
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "finance",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    },
+    {
+      "signal_id": "SVCB_20261020_morning_SHORT_alt",
+      "ticker": "SVCB",
+      "direction": "SHORT",
+      "entry": 10.27,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 10.32,
+      "target": 10.11,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 10.1,
+      "block_high": 10.27,
+      "stoch": 79.9,
+      "r_r": 3.06,
+      "quality": 45,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 100.0,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 1.66,
+        "distance_from_high_pct": 0.0,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "finance",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    },
+    {
+      "signal_id": "AKRN_20261020_morning_SHORT_alt",
+      "ticker": "AKRN",
+      "direction": "SHORT",
+      "entry": 18692.0,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 18914.1,
+      "target": 17936.0,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 18562.0,
+      "block_high": 18820.0,
+      "stoch": 79.0,
+      "r_r": 3.4,
+      "quality": 55,
+      "final_rating": 88.0,
+      "entry_zone": {
+        "position_in_block_pct": 50.4,
+        "zone": "MIDDLE_THIRD",
+        "distance_from_low_pct": 0.7,
+        "distance_from_high_pct": 0.68,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "chemicals",
+        "focus_direction": null,
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    },
+    {
+      "signal_id": "MSRS_20261020_morning_SHORT_alt",
+      "ticker": "MSRS",
+      "direction": "SHORT",
+      "entry": 1.75,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 1.76,
+      "target": 1.72,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 1.7,
+      "block_high": 1.75,
+      "stoch": 84.5,
+      "r_r": 1.82,
+      "quality": 30,
+      "final_rating": 64.0,
+      "entry_zone": {
+        "position_in_block_pct": 100.0,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 2.86,
+        "distance_from_high_pct": 0.0,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "unknown",
+        "focus_direction": null,
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    },
+    {
+      "signal_id": "MTLRP_20261020_morning_SHORT_alt",
+      "ticker": "MTLRP",
+      "direction": "SHORT",
+      "entry": 41.2,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 41.71,
+      "target": 38.28,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 40.45,
+      "block_high": 41.5,
+      "stoch": 77.6,
+      "r_r": 5.76,
+      "quality": 25,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 71.4,
+        "zone": "UPPER_THIRD",
+        "distance_from_low_pct": 1.82,
+        "distance_from_high_pct": 0.73,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "metals",
+        "focus_direction": "NEUTRAL",
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    },
+    {
+      "signal_id": "UPRO_20261020_morning_SHORT_alt",
+      "ticker": "UPRO",
+      "direction": "SHORT",
+      "entry": 1.13,
+      "entry_time": "2026-10-20T08:00:00+03:00",
+      "stop": 1.16,
+      "target": 1.02,
+      "size": null,
+      "source": "alternative",
+      "reason": "LLM предложил как альтернативу (SHORT)",
+      "trigger": "",
+      "block_low": 1.13,
+      "block_high": 1.15,
+      "stoch": 86.7,
+      "r_r": 5.32,
+      "quality": 35,
+      "final_rating": 100.0,
+      "entry_zone": {
+        "position_in_block_pct": 0.0,
+        "zone": "LOWER_THIRD",
+        "distance_from_low_pct": 0.0,
+        "distance_from_high_pct": 1.77,
+        "entry_vs_block": "INSIDE"
+      },
+      "trigger_analysis": null,
+      "context": {
+        "market_phase": "UP",
+        "macro": {
+          "brent": 109.79000091552734,
+          "brent_moex": 109.77,
+          "imoex": 2452.75,
+          "rvi": 29.64,
+          "usd_rub": 82.8504,
+          "cny_rub": 12.3869,
+          "cbr_rate": 14.0,
+          "inflation": 6.35,
+          "macro_score": 3,
+          "risk_level": "HIGH",
+          "imoex_position": 36
+        },
+        "focus_sector": "energy",
+        "focus_direction": null,
+        "key_risks": [
+          "Ставка ЦБ 14% при инфляции 6.35% — риск продления жёсткой ДКП и давления на девелоперов/потребительский сектор",
+          "Высокая волатильность (RVI 29.6) — риск резких просадок на фоне геополитики",
+          "Слабые корпоративные отчёты в химии и электроэнергетике (НКНХ, Юнипро) — риск точечных распродаж",
+          "Коррекция золота (-6.2% за 30д) — давление на золотодобытчиков (Полюс, Селигдар)",
+          "Стресс в девелопменте (выкуп ПИК, приостановка торгов) — сигнал проблем в секторе"
+        ],
+        "news_tone": {
+          "overall": "NEUTRAL",
+          "score": -0.1,
+          "by_layer": {
+            "macro": {
+              "score": 0.1,
+              "label": "NEUTRAL"
+            },
+            "general": {
+              "score": -0.2,
+              "label": "NEUTRAL"
+            },
+            "sectors": {
+              "oil_gas": {
+                "score": 0.5,
+                "label": "POSITIVE"
+              },
+              "finance": {
+                "score": -0.1,
+                "label": "NEUTRAL"
+              },
+              "metals": {
+                "score": -0.2,
+                "label": "NEUTRAL"
+              },
+              "developers": {
+                "score": -0.5,
+                "label": "NEGATIVE"
+              },
+              "energy": {
+                "score": -0.3,
+                "label": "NEGATIVE"
+              },
+              "tech": {
+                "score": 0.0,
+                "label": "NEUTRAL"
+              }
+            }
+          }
+        },
+        "critical_events": [
+          {
+            "date": "2026-10-20",
+            "event": "PIKK: приостановка торгов и фиксация для выкупа по 551,4 ₽/акцию — стресс-сигнал в девелопменте",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "developers",
+              "finance"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "Росстат: недельная инфляция — ключевой триггер для ожиданий по ставке ЦБ",
+            "impact": "HIGH",
+            "affected_sectors": [
+              "finance",
+              "developers"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Северсталь (CHMF): операционные и финансовые результаты по МСФО за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "event": "ФосАгро (PHOR): отчёт МСФО 9 мес + возможное объявление дивиденда",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          },
+          {
+            "date": "2026-10-20",
+            "event": "Газпром: Совет директоров по корректировке инвестиционной программы; Татнефть: СД по прогнозу 2027 и capex",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "oil_gas"
+            ]
+          },
+          {
+            "date": "2026-10-26",
+            "event": "ГМК Норникель (GMKN): операционные результаты за 9 месяцев 2026",
+            "impact": "MEDIUM",
+            "affected_sectors": [
+              "metals"
+            ]
+          }
+        ],
+        "news_summary": "Поток новостей смешанный: нефтегаз поддержан высоким Brent и позитивом по НОВАТЭКу/Сургутнефтегазу, тогда как химия (НКНХ — падение прибыли в 16 раз и пожар на производстве) и электроэнергетика (Юнипро, Интер РАО) давят на общий фон. В банках — спекуляции вокруг ВТБ, у девелоперов — стресс-сигналы (выкуп ПИК, приостановка торгов). Ключевым триггером недели станет недельная инфляция Росстата 21.10, влияющая на ожидания по ставке ЦБ."
+      },
+      "duplicate_of": null,
+      "added_at": "2026-10-20T08:01:48.714474"
+    }
+  ]
+}
